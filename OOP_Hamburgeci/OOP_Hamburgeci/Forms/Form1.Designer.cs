@@ -62,14 +62,14 @@
             // siparişOluşturToolStripMenuItem
             // 
             this.siparişOluşturToolStripMenuItem.Name = "siparişOluşturToolStripMenuItem";
-            this.siparişOluşturToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.siparişOluşturToolStripMenuItem.Size = new System.Drawing.Size(191, 26);
             this.siparişOluşturToolStripMenuItem.Text = "Sipariş Oluştur";
             this.siparişOluşturToolStripMenuItem.Click += new System.EventHandler(this.siparişOluşturToolStripMenuItem_Click);
             // 
             // siparişBilgileriToolStripMenuItem
             // 
             this.siparişBilgileriToolStripMenuItem.Name = "siparişBilgileriToolStripMenuItem";
-            this.siparişBilgileriToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.siparişBilgileriToolStripMenuItem.Size = new System.Drawing.Size(191, 26);
             this.siparişBilgileriToolStripMenuItem.Text = "Sipariş Bilgileri";
             this.siparişBilgileriToolStripMenuItem.Click += new System.EventHandler(this.siparişBilgileriToolStripMenuItem_Click);
             // 
@@ -101,6 +101,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1282, 853);
+            this.ControlBox = false;
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.IsMdiContainer = true;

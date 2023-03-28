@@ -32,6 +32,7 @@ namespace OyunSitesi
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            txtSifre.PasswordChar = '*';
             if (checkBox1.Checked)
             {
                 txtSifre.PasswordChar = '\0';

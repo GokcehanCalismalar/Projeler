@@ -1,0 +1,25 @@
+﻿@model List<Personel>
+@{
+	ViewData["Title"] = "Personels List";
+}
+<h1>@ViewData["Title"]</h1>
+@{
+	Layout = "_Layout3";
+}
+@{
+	foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@item.FirstName
+			</td>
+			<td>
+				@item.LastName
+			</td>
+			<td>
+				<a class="text-dark btn btn-primary" asp-area="" asp-controller="Personel" asp-action="ShowCars2" asp-route-id="@item.PersonelId">Personeller</a>
+
+			</td>
+		</tr>
+	}
+}

@@ -1,0 +1,19 @@
+﻿@model List<Car>
+
+@{
+	Layout = "_Layout2";
+}
+
+@{
+    foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.ModelYear
+            </td>
+            <td>
+                @item.ModelName
+            </td>
+        </tr>
+    }
+}
